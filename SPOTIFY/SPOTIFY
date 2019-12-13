@@ -1,0 +1,33 @@
+<spotify name="Spotify" link="https://www.spotify.com/">
+    <type select="option">
+        <option files=".mp3">music</option>
+        <option files=".mp4">video</option>
+    </type>
+    <search_bar name="search" ID="bar">
+        <tags>
+            <name_gender search_filename="bar">
+                <gender ID="GE4854783">Rock</gender>
+                <gender ID="GE8390962">Pop</gender>
+                <gender ID="GE0000002">Podcast</gender>
+            </name_gender>
+            <name_archive search_filename="bar">
+                <archive ID="AC6218655">Roundabout.mp3</archive>
+                <archive ID="AC7710692">Hello_Again.mp3</archive>
+                <archive ID="AC7495462">Susie_Q.mp4</archive>
+            </name_archive>
+            <name_artist search_filename="bar">
+                <artist ID="AT3355496">Ronnie_James_Dio</artist>
+                <artist ID="AT4992007">REO_Speedwagon</artist>
+                <artist ID="AT9964553">Lisa_Lisa_and_Cult_Jam</artist>
+            </name_artist>
+        </tags>
+    </search_bar>
+    <users>
+        <user ID="34F0DA" name="Jonathan" pasword="1234qwer" mail="JonTH@gmail.com">
+            <play_list name="PL1">
+                <track order="1" ID="AC6218655">Roundabout</track>
+                <track order="2" ID="AC7710692">Hello_Again</track>
+            </play_list>
+        </user>
+    </users>
+</spotify>

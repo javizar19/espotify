@@ -1,0 +1,20 @@
+YAML:
+key    value
+name: 'spotify'
+
+option:
+  - 'mp3'
+  - 'mp4'
+search_bar: 'search'
+name_gender:
+  - 'rock'
+  - 'pop'
+  - 'podcast'
+name_archive:
+  - 'roundabout.mp3'
+  - 'hello_again.mp3'
+  - 'susie_q.mp3'
+name_artist:
+  - 'ronnie_james_dio'
+  - 'reo_sn'
+  - 'lisa_and_cult_jam'
